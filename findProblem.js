@@ -1,3 +1,5 @@
+const array = [primary_numbers]
+
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.createElement('input');
