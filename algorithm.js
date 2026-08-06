@@ -1,3 +1,18 @@
+function gameCall(userChoice) {
+  const options = ['rock', 'paper', 'scissors'];
+  const computerChoice = options[Math.floor(Math.random() * options.length)];
+  if (userChoice === computerChoice) return `Tie! Both chose ${userChoice}`;
+  if (
+    (userChoice === 'rock' && computerChoice === 'scissors') ||
+    (userChoice === 'scissors' && computerChoice === 'paper') ||
+    (userChoice === 'paper' && computerChoice === 'rock')
+  ) {
+    return `Win! You chose ${userChoice} and computer chose ${computerChoice}`;
+  } else {
+    return `Lose! You chose ${userChoice} and computer chose ${computerChoice}`;
+  }
+}
+
 function whichHand(word) {
   left = ['q', 'w', 'e', 'r', 't', 'a', 's', 'd', 'f', 'g', 'z', 'x', 'c', 'v', 'b']
   right = ['y', 'h', 'n', 'u', 'j', 'i', 'k', 'm', 'o', 'l', 'p']
