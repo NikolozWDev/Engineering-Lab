@@ -1,8 +1,8 @@
 # Engineering Lab
 
-A long-running engineering workspace for exploring software development through experiments, prototypes, algorithms, and practical implementation.
+A long-running engineering workspace for exploring software development through experiments, prototypes, algorithms, and practical implementation...
 
-This repository contains work accumulated over time while exploring different areas of software engineering. Some projects are small and focused on a single concept, while others grow into more complete experiments or application prototypes.
+This repository contains work accumulated over time while exploring different areas of software engineering. Some projects are small and focused on a single concept, while others grow into more complete experiments or application prototypes...
 
 The purpose of this repository is not to present a collection of finished products. It is a place to test ideas, investigate technologies, solve problems, and keep track of how different approaches evolve over time.
 
