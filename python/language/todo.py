@@ -1,3 +1,5 @@
+import Math
+
 def pig_latin(s):
     if any(x.isdigit() for x in s) or not s:
         return None
